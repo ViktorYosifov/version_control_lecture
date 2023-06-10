@@ -22,3 +22,6 @@ def count_in_t(lst: list) ->tuple:
     return tuple(outp)
 
 print(count_in_t(['a', 'a', 'c', 'c', 'b']))
+
+
+#Time test has been done
