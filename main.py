@@ -9,5 +9,16 @@ def count_el(lst : list) -> dict:
     return d
 
 
+#In: ['a', 'a', 'c', 'c', 'b']
+#Out: (a, 2, c, 2, b ,1)
 
+def count_in_t(lst: list) ->tuple:
+    outp = []
+    d = count_el()
+    for key, value in d.items():
 
+        outp += (key, value)
+
+    return tuple(outp)
+
+print(count_in_t(['a', 'a', 'c', 'c', 'b']))
